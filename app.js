@@ -218,6 +218,7 @@
              for(let i = 0; i <optionLength; i++   ){
                 let option= document.createElement("input")
                 let label = document.createElement("label")
+                label.style.paddingRight= "25px"
                 
 
                 option.type="radio"  // option is a radio button
