@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+  <!--
+        QUIZ GAME!
+
+        RULES:
+        / The player must guess correctly a certain amount of questions
+        / Each correct answer gives him one point
+        / Answers could be multiple or true/false
+        / At the end of the game, the user must know his/her total score
+
+        QUESTIONS:
+        / You can get them from this URL ( http://bit.ly/strive_QUIZZ ) or you can write your own
+        / Could be multiple of boolean (true / false)
+
+        HINTS:
+        / Keep a global variable score for the user score
+        / Keep a variable questionNumber for the question the user is answering
+        / When questionNumber is bigger then the available questions, present the score
+        / Start working with the questions saved in a variable (or you can use AJAX for fetching external questions if you already know how to do it!)
+        / Start with the easier version and THEN implement the EXTRAs
+        / Please debug everything / try it on the console to be sure of what to expect from your code
+
+        EXTRA:
+        / Show if the answer provided was the wrong one or correct it after clicking
+        / Present the questions one at a time instead of having all of them displayed together
+        / Let the user select difficulty and number of questions (you can get q/a from https://opentdb.com/api.php?amount=10&category=18&difficulty=easy modifying amount and difficulty)
+    
+        /* WHEN YOU ARE FINISHED
+          Commit and push the code to your personal GitHub repository; then post the link of your commit on the Homework section of today's Eduflow.
+        */
+    -->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Project</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/styles.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+            <div id="header">
+
+                    <h1>Welcome to your quiz</h1>
+            </div>
+
+            <div class="paragraph">
+                <p> Please select the correct anwsers </p>
+                <hr>
+
+            </div>
+            <br>
+            <br>
+
+            <div id="displayQuestions" class="questions">
+
+            </div>
+
+            <div>
+                <h1  id="flash" style="  color: green;"></h1>
+            </div>
+
+          <!--
+
+<div id="questions">
+                <h5>  Question 1</h5>
+
+               
+                    <p>whatjfjjwerifnwnfnrfnwnmer oiejorowjrfpqj3orjpoq3jprjpq3jprjqp3ijerpjq   pjeopjq234jfo   jrof    ojrfoj  2flkwllwkwme</p>
+
+                    <input type="radio" id="question" name="" value="" >
+                    <label for="question">whatsup</label>
+                    <input type="radio" id="question" name="" value="" >
+                    <label for="question">whatsudddddddddddp</label>
+                    <input type="radio" id="question" name="" value="" >
+                    <label for="question">whatsup</label>
+                    <input type="radio" id="question" name="" value="" >
+                    <label for="question">whaddddddddddddddddddtsup</label>
+               
+              
+            </div>
+
+          -->  
+
+
+        
+        <script type="text/javascript" src="/app.js" async defer></script>
+    </body>
+</html>

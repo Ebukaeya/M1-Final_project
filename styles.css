@@ -1,0 +1,35 @@
+body{
+    background-color: azure;
+}
+
+#header{
+   text-align: center;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.questions{
+    width: 70%;
+    height: auto;
+    background-color: white;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    border-radius: 5%;
+}
+
+
+
+
+
+
+.paragraph{
+    text-align: center;
+    font-size: 25px;
+   
+
+}
